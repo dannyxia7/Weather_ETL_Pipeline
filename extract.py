@@ -1,56 +1,101 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
+import os
 import requests
 import time
 import json
 import logging
+from datetime import datetime
 from requests.exceptions import RequestException
 
 # Define the API endpoint and parameters
-with open('./config/config.json') as config_file:
-    config = json.load(config_file)
-    api_key = config['api_key']
+api_key = os.getenv('API_KEY')
 
 # Set up logging
-logging.basicConfig(level=logging.INFO)
-BASE_URL = "http://api.openweathermap.org/data/2.5/forecast"
-CITY = "San Diego"
-RATE_LIMIT = 60  # Max 60 requests per minute for the free tier
+logging.basicConfig(filename='weather_etl_log', format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
+logger = logging.getLogger()
 
-def get_weather_data(city, api_key, max_retries):
-    params = {
-        "q": city,
-        "appid": api_key,
-        "units": "imperial"
-    }
-    retries = 0
-    while retries < max_retries:
+base_url = "http://api.openweathermap.org/data/2.5/"
+CITY = "San Diego"
+os.makedirs("./data", exist_ok=True)
+
+# Max 60 requests per minute for the free tier
+
+
+def fetch_api_data(endpoint, params, max_retries=3):
+    """Fetch data from the OpenWeather API with error handling and exponential backoff."""
+    retry_count = 0
+    backoff_time = 1  # initial backoff time in seconds
+
+    while retry_count < max_retries:
         try:
-            response = requests.get(BASE_URL, params=params)
-            if response.status_code == 429:  # Rate limit exceeded
-                retry_after = int(response.headers.get("Retry-After", 60))
-                logging.warning(f"Rate limit exceeded. Retrying after {retry_after} seconds.")
-                time.sleep(retry_after)
-            elif response.status_code == 200:
+            response = requests.get(endpoint, params=params, timeout=10)
+
+            if response.status_code == 200:
+                logger.info("Successfully fetched data from %s", endpoint)
                 return response.json()
-            else:
-                logging.error(f"Failed to fetch data. Status code: {response.status_code}")
+
+            elif response.status_code == 403:
+                logger.error("Error 403: Forbidden – Check API key and permissions.")
                 return None
-        except RequestException as e:
-            logging.error(f"Request failed: {e}")
-            retries += 1
-            time.sleep(2 ** retries)  # Exponential backoff
-    logging.error("Max retries reached. Could not fetch data.")
+
+            elif response.status_code == 404:
+                logger.error("Error 404: Not Found – Verify the endpoint URL.")
+                return None
+
+            else:
+                logger.warning("Unexpected response code %d received from the API", response.status_code)
+
+        except requests.exceptions.Timeout:
+            logger.error("Timeout error on attempt %d", retry_count + 1)
+        except requests.exceptions.ConnectionError:
+            logger.error("Connection error on attempt %d", retry_count + 1)
+        except Exception as e:
+            logger.error("Unexpected error on attempt %d: %s", retry_count + 1, str(e))
+
+        # Increment retry count, apply exponential backoff, and try again
+        retry_count += 1
+        time.sleep(backoff_time)
+        backoff_time *= 2  # Exponential increase (1s, 2s, 4s, etc.)
+
+    logger.error("Failed to fetch data from %s after %d attempts", endpoint, max_retries)
     return None
 
-def save_raw_data_to_json(data, filename="./data/raw_weather_data.json"):
-    with open(filename, 'w') as file:
-        json.dump(data, file)
 
-# cities_to_check = ["San Diego", "Los Angeles", "New York"]  # Add more cities as needed
-#
-# weather_data = get_weather_data(cities_to_check, api_key, max_retries=3)
+def extract_weather_data(cities, units='imperial'):
+    """Extract data from both the weather and forecast endpoints."""
+
+    cities_data = {
+        "weather": {},
+        "forecast": {}
+    }
+
+    for city in cities:
+        logger.info(f"Fetching data for city: {city}")
+
+        # Define parameters for weather and forecast endpoints
+        params = {
+            'q': city,  # example city
+            'appid': api_key,
+            'units': units
+        }
+
+        # Fetch current weather data
+        weather_data = fetch_api_data(f"{base_url}weather", params)
+        forecast_data = fetch_api_data(f"{base_url}forecast", params)
+
+        # Only save data if both requests were successful
+        if weather_data and forecast_data:
+            cities_data["weather"][city] = weather_data
+            cities_data["forecast"][city] = forecast_data
+        else:
+            logger.error(f"Data extraction failed for city: {city}")
+
+    # Save all cities' data to a single JSON file
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_file = f"./data/all_cities_weather_data_{timestamp}.json"
+    with open(output_file, "w") as f:
+        json.dump(cities_data, f, indent=4)
+
+    logger.info(f"All cities' data saved to {output_file}")
+
+    return cities_data
 

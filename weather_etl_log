@@ -1,0 +1,846 @@
+2024-10-31 12:51:33,918 - INFO - Downloaded bulk data successfully to ./data/weather_bulk_data.json
+2024-10-31 12:51:34,025 - INFO - Downloaded bulk data successfully to ./data/weather_bulk_data.json
+2024-10-31 18:45:24,563 - INFO - Fetching data for city: New York
+2024-10-31 18:45:24,666 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:45:24,777 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:45:24,778 - INFO - Fetching data for city: Los Angeles
+2024-10-31 18:45:24,861 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:45:24,970 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:45:24,970 - INFO - Fetching data for city: Chicago
+2024-10-31 18:45:25,047 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:45:25,170 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:45:25,170 - INFO - Fetching data for city: Houston
+2024-10-31 18:45:25,243 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:45:25,367 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:45:25,368 - INFO - Fetching data for city: Phoenix
+2024-10-31 18:45:25,434 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:45:25,545 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:45:25,546 - INFO - Fetching data for city: San Diego
+2024-10-31 18:45:25,612 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:45:25,731 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:46:39,856 - INFO - Fetching data for city: New York
+2024-10-31 18:46:39,934 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:46:40,044 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:46:40,044 - INFO - Fetching data for city: Los Angeles
+2024-10-31 18:46:40,115 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:46:40,217 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:46:40,217 - INFO - Fetching data for city: Chicago
+2024-10-31 18:46:40,286 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:46:40,388 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:46:40,389 - INFO - Fetching data for city: Houston
+2024-10-31 18:46:40,462 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:46:40,573 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:46:40,574 - INFO - Fetching data for city: Phoenix
+2024-10-31 18:46:40,646 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:46:40,753 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:46:40,754 - INFO - Fetching data for city: San Diego
+2024-10-31 18:46:40,818 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:46:40,929 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:46:40,954 - INFO - All cities' data saved to all_cities_weather_data_20241031_184640.json
+2024-10-31 18:46:40,954 - INFO - Data transformation completed.
+2024-10-31 18:47:42,246 - INFO - Fetching data for city: New York
+2024-10-31 18:47:42,339 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:47:42,449 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:47:42,449 - INFO - Fetching data for city: Los Angeles
+2024-10-31 18:47:42,520 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:47:42,632 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:47:42,633 - INFO - Fetching data for city: Chicago
+2024-10-31 18:47:42,708 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:47:42,828 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:47:42,828 - INFO - Fetching data for city: Houston
+2024-10-31 18:47:42,897 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:47:43,009 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:47:43,010 - INFO - Fetching data for city: Phoenix
+2024-10-31 18:47:43,076 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:47:43,190 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:47:43,190 - INFO - Fetching data for city: San Diego
+2024-10-31 18:47:43,258 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:47:43,371 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:47:43,396 - INFO - All cities' data saved to all_cities_weather_data_20241031_184743.json
+2024-10-31 18:47:43,396 - INFO - Data transformation completed.
+2024-10-31 18:48:42,839 - INFO - Fetching data for city: New York
+2024-10-31 18:48:42,936 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:48:43,051 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:48:43,051 - INFO - Fetching data for city: Los Angeles
+2024-10-31 18:48:43,120 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:48:43,225 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:48:43,225 - INFO - Fetching data for city: Chicago
+2024-10-31 18:48:43,307 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:48:43,422 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:48:43,422 - INFO - Fetching data for city: Houston
+2024-10-31 18:48:43,494 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:48:43,604 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:48:43,605 - INFO - Fetching data for city: Phoenix
+2024-10-31 18:48:43,678 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:48:43,779 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:48:43,779 - INFO - Fetching data for city: San Diego
+2024-10-31 18:48:43,859 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:48:43,979 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:48:44,003 - INFO - All cities' data saved to all_cities_weather_data_20241031_184843.json
+2024-10-31 18:48:44,004 - INFO - Data transformation completed.
+2024-10-31 18:48:44,028 - ERROR - Error loading data to database: column "weather_condition" of relation "weather_data" does not exist
+LINE 2: ...her_data (city, timestamp, temperature, humidity, weather_co...
+                                                             ^
+
+2024-10-31 18:58:42,296 - INFO - Fetching data for city: New York
+2024-10-31 18:58:42,379 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:58:42,488 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:58:42,489 - INFO - Fetching data for city: Los Angeles
+2024-10-31 18:58:42,560 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:58:42,685 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:58:42,685 - INFO - Fetching data for city: Chicago
+2024-10-31 18:58:42,764 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:58:42,878 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:58:42,878 - INFO - Fetching data for city: Houston
+2024-10-31 18:58:42,946 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:58:43,055 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:58:43,055 - INFO - Fetching data for city: Phoenix
+2024-10-31 18:58:43,140 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:58:43,265 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:58:43,266 - INFO - Fetching data for city: San Diego
+2024-10-31 18:58:43,337 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 18:58:43,445 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 18:58:43,470 - INFO - All cities' data saved to all_cities_weather_data_20241031_185843.json
+2024-10-31 18:58:43,470 - INFO - Data transformation completed.
+2024-10-31 18:58:43,513 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 18:58:43,519 - ERROR - Error loading data to database: column "weather_condition" of relation "weather_data" does not exist
+LINE 2: ...her_data (city, timestamp, temperature, humidity, weather_co...
+                                                             ^
+
+2024-10-31 19:01:24,452 - INFO - Fetching data for city: New York
+2024-10-31 19:01:24,526 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:01:24,631 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:01:24,631 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:01:24,705 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:01:24,824 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:01:24,825 - INFO - Fetching data for city: Chicago
+2024-10-31 19:01:24,900 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:01:25,013 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:01:25,013 - INFO - Fetching data for city: Houston
+2024-10-31 19:01:25,087 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:01:25,195 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:01:25,195 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:01:25,266 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:01:25,379 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:01:25,380 - INFO - Fetching data for city: San Diego
+2024-10-31 19:01:25,453 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:01:25,563 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:01:25,588 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_190125.json
+2024-10-31 19:01:25,588 - INFO - Data transformation completed.
+2024-10-31 19:01:25,621 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:01:25,628 - ERROR - Error loading data to database: column "weather_condition" of relation "weather_data" does not exist
+LINE 2: ...her_data (city, timestamp, temperature, humidity, weather_co...
+                                                             ^
+
+2024-10-31 19:12:48,177 - INFO - Fetching data for city: New York
+2024-10-31 19:12:48,265 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:12:48,372 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:12:48,372 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:12:48,448 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:12:48,564 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:12:48,564 - INFO - Fetching data for city: Chicago
+2024-10-31 19:12:48,634 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:12:48,743 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:12:48,744 - INFO - Fetching data for city: Houston
+2024-10-31 19:12:48,817 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:12:48,963 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:12:48,963 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:12:49,030 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:12:49,138 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:12:49,138 - INFO - Fetching data for city: San Diego
+2024-10-31 19:12:49,210 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:12:49,315 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:12:49,340 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_191249.json
+2024-10-31 19:12:49,340 - INFO - Data transformation completed.
+2024-10-31 19:12:49,484 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:13:35,911 - INFO - Fetching data for city: New York
+2024-10-31 19:13:35,987 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:13:36,094 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:13:36,094 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:13:36,161 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:13:36,266 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:13:36,267 - INFO - Fetching data for city: Chicago
+2024-10-31 19:13:36,336 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:13:36,440 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:13:36,440 - INFO - Fetching data for city: Houston
+2024-10-31 19:13:36,512 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:13:36,621 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:13:36,621 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:13:36,692 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:13:36,801 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:13:36,801 - INFO - Fetching data for city: San Diego
+2024-10-31 19:13:36,867 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:13:36,974 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:13:36,999 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_191336.json
+2024-10-31 19:13:36,999 - INFO - Data transformation completed.
+2024-10-31 19:13:37,137 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:13:37,149 - ERROR - Error loading data to database: column "timestamp" is of type timestamp without time zone but expression is of type integer
+LINE 3:                             VALUES ('New York', 1730427051, ...
+                                                        ^
+HINT:  You will need to rewrite or cast the expression.
+
+2024-10-31 19:16:48,522 - INFO - Fetching data for city: New York
+2024-10-31 19:16:48,620 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:16:48,743 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:16:48,743 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:16:48,818 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:16:48,939 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:16:48,940 - INFO - Fetching data for city: Chicago
+2024-10-31 19:16:49,017 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:16:49,144 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:16:49,144 - INFO - Fetching data for city: Houston
+2024-10-31 19:16:49,224 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:16:49,350 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:16:49,351 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:16:49,417 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:16:49,530 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:16:49,530 - INFO - Fetching data for city: San Diego
+2024-10-31 19:16:49,602 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:16:49,726 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:16:49,751 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_191649.json
+2024-10-31 19:16:49,751 - INFO - Data transformation completed.
+2024-10-31 19:16:49,787 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:16:49,854 - INFO - Data successfully loaded into the database.
+2024-10-31 19:20:25,365 - INFO - Fetching data for city: New York
+2024-10-31 19:20:25,452 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:20:25,565 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:20:25,565 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:20:25,634 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:20:25,743 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:20:25,744 - INFO - Fetching data for city: Chicago
+2024-10-31 19:20:25,823 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:20:25,946 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:20:25,947 - INFO - Fetching data for city: Houston
+2024-10-31 19:20:26,021 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:20:26,124 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:20:26,125 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:20:26,199 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:20:26,302 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:20:26,303 - INFO - Fetching data for city: San Diego
+2024-10-31 19:20:26,388 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:20:26,499 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:20:26,524 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_192026.json
+2024-10-31 19:20:26,524 - INFO - Data transformation completed.
+2024-10-31 19:20:26,546 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:20:26,612 - INFO - Data successfully loaded into the database.
+2024-10-31 19:22:17,398 - INFO - Fetching data for city: New York
+2024-10-31 19:22:17,491 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:22:17,610 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:22:17,610 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:22:17,677 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:22:17,776 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:22:17,776 - INFO - Fetching data for city: Chicago
+2024-10-31 19:22:17,850 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:22:17,953 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:22:17,953 - INFO - Fetching data for city: Houston
+2024-10-31 19:22:18,025 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:22:18,128 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:22:18,128 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:22:18,196 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:22:18,299 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:22:18,299 - INFO - Fetching data for city: San Diego
+2024-10-31 19:22:18,383 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:22:18,486 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:22:18,512 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_192218.json
+2024-10-31 19:22:18,512 - INFO - Data transformation completed.
+2024-10-31 19:22:18,535 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:22:18,598 - INFO - Data successfully loaded into the database.
+2024-10-31 19:23:48,984 - INFO - Fetching data for city: New York
+2024-10-31 19:23:49,061 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:23:49,206 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:23:49,206 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:23:49,277 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:23:49,381 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:23:49,381 - INFO - Fetching data for city: Chicago
+2024-10-31 19:23:49,476 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:23:49,607 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:23:49,607 - INFO - Fetching data for city: Houston
+2024-10-31 19:23:49,679 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:23:49,795 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:23:49,796 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:23:49,869 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:23:49,990 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:23:49,990 - INFO - Fetching data for city: San Diego
+2024-10-31 19:23:50,061 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:23:50,174 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:23:50,200 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_192350.json
+2024-10-31 19:23:50,200 - INFO - Data transformation completed.
+2024-10-31 19:23:50,223 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:23:50,223 - INFO - Inserting city: New York, Country: US, Latitude: 40.7143, Longitude: -74.006
+2024-10-31 19:23:50,224 - INFO - Inserting city: Los Angeles, Country: US, Latitude: 34.0522, Longitude: -118.2437
+2024-10-31 19:23:50,224 - INFO - Inserting city: Chicago, Country: US, Latitude: 41.85, Longitude: -87.65
+2024-10-31 19:23:50,224 - INFO - Inserting city: Houston, Country: US, Latitude: 29.7633, Longitude: -95.3633
+2024-10-31 19:23:50,224 - INFO - Inserting city: Phoenix, Country: US, Latitude: 33.4484, Longitude: -112.074
+2024-10-31 19:23:50,224 - INFO - Inserting city: San Diego, Country: US, Latitude: 32.7153, Longitude: -117.1573
+2024-10-31 19:23:50,288 - INFO - Data successfully loaded into the database.
+2024-10-31 19:26:09,867 - INFO - Fetching data for city: New York
+2024-10-31 19:26:09,966 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:26:10,104 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:26:10,105 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:26:10,191 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:26:10,327 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:26:10,327 - INFO - Fetching data for city: Chicago
+2024-10-31 19:26:10,421 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:26:10,541 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:26:10,542 - INFO - Fetching data for city: Houston
+2024-10-31 19:26:10,630 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:26:10,767 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:26:10,767 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:26:10,853 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:26:10,985 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:26:10,985 - INFO - Fetching data for city: San Diego
+2024-10-31 19:26:11,068 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:26:11,181 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:26:11,214 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_192611.json
+2024-10-31 19:26:11,215 - INFO - Data transformation completed.
+2024-10-31 19:26:11,264 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:26:11,264 - INFO - Inserting city: New York, Country: US, Latitude: 40.7143, Longitude: -74.006
+2024-10-31 19:26:11,265 - INFO - Inserting city: Los Angeles, Country: US, Latitude: 34.0522, Longitude: -118.2437
+2024-10-31 19:26:11,265 - INFO - Inserting city: Chicago, Country: US, Latitude: 41.85, Longitude: -87.65
+2024-10-31 19:26:11,265 - INFO - Inserting city: Houston, Country: US, Latitude: 29.7633, Longitude: -95.3633
+2024-10-31 19:26:11,265 - INFO - Inserting city: Phoenix, Country: US, Latitude: 33.4484, Longitude: -112.074
+2024-10-31 19:26:11,266 - INFO - Inserting city: San Diego, Country: US, Latitude: 32.7153, Longitude: -117.1573
+2024-10-31 19:26:11,346 - INFO - Data successfully loaded into the database.
+2024-10-31 19:38:21,948 - INFO - Fetching data for city: New York
+2024-10-31 19:38:22,079 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:38:22,204 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:38:22,205 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:38:22,299 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:38:22,417 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:38:22,417 - INFO - Fetching data for city: Chicago
+2024-10-31 19:38:22,490 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:38:22,611 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:38:22,611 - INFO - Fetching data for city: Houston
+2024-10-31 19:38:22,686 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:38:22,800 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:38:22,801 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:38:22,872 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:38:22,988 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:38:22,988 - INFO - Fetching data for city: San Diego
+2024-10-31 19:38:23,055 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:38:23,163 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:38:23,188 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_193823.json
+2024-10-31 19:38:23,189 - INFO - Data transformation completed.
+2024-10-31 19:38:23,220 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:38:23,222 - ERROR - Error loading data to database: column "timestamp" is of type timestamp without time zone but expression is of type integer
+LINE 3:                         VALUES ('New York', 1730428445, 72.3...
+                                                    ^
+HINT:  You will need to rewrite or cast the expression.
+
+2024-10-31 19:38:47,741 - INFO - Fetching data for city: New York
+2024-10-31 19:38:47,819 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:38:47,940 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:38:47,941 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:38:48,012 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:38:48,118 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:38:48,118 - INFO - Fetching data for city: Chicago
+2024-10-31 19:38:48,188 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:38:48,296 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:38:48,297 - INFO - Fetching data for city: Houston
+2024-10-31 19:38:48,373 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:38:48,479 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:38:48,480 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:38:48,552 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:38:48,653 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:38:48,653 - INFO - Fetching data for city: San Diego
+2024-10-31 19:38:48,726 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:38:48,834 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:38:48,860 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_193848.json
+2024-10-31 19:38:48,860 - INFO - Data transformation completed.
+2024-10-31 19:38:48,891 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:38:48,894 - ERROR - Error loading data to database: column "timestamp" is of type timestamp without time zone but expression is of type integer
+LINE 3:                         VALUES ('New York', 1730428445, 72.3...
+                                                    ^
+HINT:  You will need to rewrite or cast the expression.
+
+2024-10-31 19:44:59,824 - INFO - Fetching data for city: New York
+2024-10-31 19:44:59,918 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:45:00,029 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:45:00,030 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:45:00,098 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:45:00,207 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:45:00,208 - INFO - Fetching data for city: Chicago
+2024-10-31 19:45:00,277 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:45:00,397 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:45:00,397 - INFO - Fetching data for city: Houston
+2024-10-31 19:45:00,472 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:45:00,585 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:45:00,586 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:45:00,662 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:45:00,763 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:45:00,764 - INFO - Fetching data for city: San Diego
+2024-10-31 19:45:00,841 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:45:00,962 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:45:00,987 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_194500.json
+2024-10-31 19:45:00,987 - INFO - Data transformation completed.
+2024-10-31 19:45:01,017 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:45:01,020 - ERROR - Error loading data to database: column "timestamp" is of type timestamp without time zone but expression is of type integer
+LINE 3:                         VALUES ('New York', 1730428755, 72.2...
+                                                    ^
+HINT:  You will need to rewrite or cast the expression.
+
+2024-10-31 19:45:32,197 - INFO - Fetching data for city: New York
+2024-10-31 19:45:32,276 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:45:32,379 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:45:32,379 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:45:32,451 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:45:32,553 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:45:32,554 - INFO - Fetching data for city: Chicago
+2024-10-31 19:45:32,626 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:45:32,725 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:45:32,726 - INFO - Fetching data for city: Houston
+2024-10-31 19:45:32,797 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:45:32,904 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:45:32,904 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:45:32,976 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:45:33,094 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:45:33,094 - INFO - Fetching data for city: San Diego
+2024-10-31 19:45:33,166 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:45:33,269 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:45:33,294 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_194533.json
+2024-10-31 19:45:33,294 - INFO - Data transformation completed.
+2024-10-31 19:45:33,334 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:45:33,343 - ERROR - Error loading data to database: column "timestamp" is of type timestamp without time zone but expression is of type integer
+LINE 3:                         VALUES ('New York', 1730428755, 72.2...
+                                                    ^
+HINT:  You will need to rewrite or cast the expression.
+
+2024-10-31 19:49:26,766 - INFO - Fetching data for city: New York
+2024-10-31 19:49:26,867 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:49:26,977 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:49:26,978 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:49:27,057 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:49:27,165 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:49:27,166 - INFO - Fetching data for city: Chicago
+2024-10-31 19:49:27,238 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:49:27,350 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:49:27,351 - INFO - Fetching data for city: Houston
+2024-10-31 19:49:27,429 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:49:27,559 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:49:27,560 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:49:27,634 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:49:27,747 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:49:27,747 - INFO - Fetching data for city: San Diego
+2024-10-31 19:49:27,837 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:49:27,948 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:49:27,973 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_194927.json
+2024-10-31 19:49:27,973 - INFO - Data transformation completed.
+2024-10-31 19:49:28,012 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:50:15,876 - INFO - Fetching data for city: New York
+2024-10-31 19:50:15,973 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:50:16,090 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:50:16,091 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:50:16,175 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:50:16,296 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:50:16,296 - INFO - Fetching data for city: Chicago
+2024-10-31 19:50:16,378 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:50:16,483 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:50:16,483 - INFO - Fetching data for city: Houston
+2024-10-31 19:50:16,549 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:50:16,658 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:50:16,658 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:50:16,728 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:50:16,835 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:50:16,835 - INFO - Fetching data for city: San Diego
+2024-10-31 19:50:16,911 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:50:17,021 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:50:17,046 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_195017.json
+2024-10-31 19:50:17,046 - INFO - Data transformation completed.
+2024-10-31 19:50:17,189 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:50:36,564 - INFO - Fetching data for city: New York
+2024-10-31 19:50:36,641 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:50:36,762 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:50:36,762 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:50:36,833 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:50:36,934 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:50:36,934 - INFO - Fetching data for city: Chicago
+2024-10-31 19:50:37,006 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:50:37,111 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:50:37,111 - INFO - Fetching data for city: Houston
+2024-10-31 19:50:37,178 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:50:37,279 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:50:37,279 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:50:37,351 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:50:37,458 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:50:37,458 - INFO - Fetching data for city: San Diego
+2024-10-31 19:50:37,539 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:50:37,646 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:50:37,672 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_195037.json
+2024-10-31 19:50:37,672 - INFO - Data transformation completed.
+2024-10-31 19:50:37,822 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:51:13,657 - INFO - Fetching data for city: New York
+2024-10-31 19:51:13,735 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:51:13,839 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:51:13,840 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:51:13,913 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:51:14,019 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:51:14,019 - INFO - Fetching data for city: Chicago
+2024-10-31 19:51:14,100 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:51:14,203 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:51:14,203 - INFO - Fetching data for city: Houston
+2024-10-31 19:51:14,274 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:51:14,381 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:51:14,382 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:51:14,453 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:51:14,567 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:51:14,567 - INFO - Fetching data for city: San Diego
+2024-10-31 19:51:14,639 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:51:14,763 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:51:14,790 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_195114.json
+2024-10-31 19:51:14,791 - INFO - Data transformation completed.
+2024-10-31 19:51:14,837 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:51:14,880 - INFO - Data successfully loaded into the database.
+2024-10-31 19:53:33,590 - INFO - Fetching data for city: New York
+2024-10-31 19:53:33,682 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:53:33,787 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:53:33,788 - INFO - Fetching data for city: Los Angeles
+2024-10-31 19:53:33,855 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:53:33,962 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:53:33,963 - INFO - Fetching data for city: Chicago
+2024-10-31 19:53:34,032 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:53:34,139 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:53:34,139 - INFO - Fetching data for city: Houston
+2024-10-31 19:53:34,210 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:53:34,323 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:53:34,323 - INFO - Fetching data for city: Phoenix
+2024-10-31 19:53:34,395 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:53:34,516 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:53:34,517 - INFO - Fetching data for city: San Diego
+2024-10-31 19:53:34,592 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-10-31 19:53:34,700 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-10-31 19:53:34,726 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241031_195334.json
+2024-10-31 19:53:34,726 - INFO - Data transformation completed.
+2024-10-31 19:53:34,751 - INFO - Tables created successfully (if they didn't exist).
+2024-10-31 19:53:34,753 - ERROR - Error loading data to database: duplicate key value violates unique constraint "weather_data_city_timestamp_key"
+DETAIL:  Key (city, "timestamp")=(New York, 2024-10-31 19:46:51) already exists.
+
+2024-11-01 15:44:39,520 - INFO - Fetching data for city: New York
+2024-11-01 15:44:39,611 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:44:39,727 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:44:39,728 - INFO - Fetching data for city: Los Angeles
+2024-11-01 15:44:39,801 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:44:39,912 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:44:39,913 - INFO - Fetching data for city: Chicago
+2024-11-01 15:44:39,988 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:44:40,101 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:44:40,102 - INFO - Fetching data for city: Houston
+2024-11-01 15:44:40,175 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:44:40,289 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:44:40,289 - INFO - Fetching data for city: Phoenix
+2024-11-01 15:44:40,360 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:44:40,467 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:44:40,468 - INFO - Fetching data for city: San Diego
+2024-11-01 15:44:40,537 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:44:40,661 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:44:40,688 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241101_154440.json
+2024-11-01 15:44:40,689 - INFO - Data transformation completed.
+2024-11-01 15:44:40,717 - INFO - Tables created successfully (if they didn't exist).
+2024-11-01 15:44:40,729 - ERROR - Error loading data to database: duplicate key value violates unique constraint "forecast_data_city_timestamp_key"
+DETAIL:  Key (city, "timestamp")=(New York, 2024-11-01 17:00:00) already exists.
+
+2024-11-01 15:45:46,566 - INFO - Fetching data for city: New York
+2024-11-01 15:45:46,657 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:45:46,757 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:45:46,757 - INFO - Fetching data for city: Los Angeles
+2024-11-01 15:45:46,831 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:45:46,942 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:45:46,942 - INFO - Fetching data for city: Chicago
+2024-11-01 15:45:47,016 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:45:47,123 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:45:47,124 - INFO - Fetching data for city: Houston
+2024-11-01 15:45:47,203 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:45:47,312 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:45:47,312 - INFO - Fetching data for city: Phoenix
+2024-11-01 15:45:47,383 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:45:47,491 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:45:47,491 - INFO - Fetching data for city: San Diego
+2024-11-01 15:45:47,580 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:45:47,698 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:45:47,724 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241101_154547.json
+2024-11-01 15:45:47,724 - INFO - Data transformation completed.
+2024-11-01 15:45:47,748 - INFO - Tables created successfully (if they didn't exist).
+2024-11-01 15:45:47,752 - ERROR - Error loading data to database: column "city_id" does not exist
+LINE 4:                         ON CONFLICT (city_id, timestamp) DO ...
+                                            ^
+HINT:  Perhaps you meant to reference the column "forecast_data.city" or the column "excluded.city".
+
+2024-11-01 15:46:30,753 - INFO - Fetching data for city: New York
+2024-11-01 15:46:30,831 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:46:30,939 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:46:30,939 - INFO - Fetching data for city: Los Angeles
+2024-11-01 15:46:31,012 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:46:31,119 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:46:31,120 - INFO - Fetching data for city: Chicago
+2024-11-01 15:46:31,390 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:46:31,500 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:46:31,500 - INFO - Fetching data for city: Houston
+2024-11-01 15:46:31,572 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:46:31,677 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:46:31,678 - INFO - Fetching data for city: Phoenix
+2024-11-01 15:46:31,746 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:46:31,859 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:46:31,860 - INFO - Fetching data for city: San Diego
+2024-11-01 15:46:31,945 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:46:32,073 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:46:32,101 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241101_154632.json
+2024-11-01 15:46:32,101 - INFO - Data transformation completed.
+2024-11-01 15:46:32,251 - INFO - Tables created successfully (if they didn't exist).
+2024-11-01 15:46:32,264 - ERROR - Error loading data to database: column "city_id" does not exist
+LINE 4:                         ON CONFLICT (city_id, timestamp) DO ...
+                                            ^
+HINT:  Perhaps you meant to reference the column "forecast_data.city" or the column "excluded.city".
+
+2024-11-01 15:47:01,381 - INFO - Fetching data for city: New York
+2024-11-01 15:47:01,461 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:01,566 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:01,567 - INFO - Fetching data for city: Los Angeles
+2024-11-01 15:47:01,634 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:01,741 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:01,742 - INFO - Fetching data for city: Chicago
+2024-11-01 15:47:01,814 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:01,918 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:01,918 - INFO - Fetching data for city: Houston
+2024-11-01 15:47:01,985 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:02,094 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:02,095 - INFO - Fetching data for city: Phoenix
+2024-11-01 15:47:02,162 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:02,264 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:02,264 - INFO - Fetching data for city: San Diego
+2024-11-01 15:47:02,332 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:02,440 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:02,467 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241101_154702.json
+2024-11-01 15:47:02,467 - INFO - Data transformation completed.
+2024-11-01 15:47:02,612 - INFO - Tables created successfully (if they didn't exist).
+2024-11-01 15:47:02,625 - ERROR - Error loading data to database: column excluded.weather_condition_id does not exist
+LINE 7:                         weather_condition_id = EXCLUDED.weat...
+                                                       ^
+HINT:  Perhaps you meant to reference the column "excluded.weather_condition".
+
+2024-11-01 15:47:16,697 - INFO - Fetching data for city: New York
+2024-11-01 15:47:16,774 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:16,875 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:16,876 - INFO - Fetching data for city: Los Angeles
+2024-11-01 15:47:16,939 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:17,044 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:17,045 - INFO - Fetching data for city: Chicago
+2024-11-01 15:47:17,114 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:17,217 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:17,218 - INFO - Fetching data for city: Houston
+2024-11-01 15:47:17,283 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:17,387 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:17,388 - INFO - Fetching data for city: Phoenix
+2024-11-01 15:47:17,456 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:17,573 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:17,573 - INFO - Fetching data for city: San Diego
+2024-11-01 15:47:17,659 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:17,766 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:17,793 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241101_154717.json
+2024-11-01 15:47:17,794 - INFO - Data transformation completed.
+2024-11-01 15:47:17,837 - INFO - Tables created successfully (if they didn't exist).
+2024-11-01 15:47:52,421 - INFO - Fetching data for city: New York
+2024-11-01 15:47:52,502 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:52,608 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:52,609 - INFO - Fetching data for city: Los Angeles
+2024-11-01 15:47:52,678 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:52,797 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:52,798 - INFO - Fetching data for city: Chicago
+2024-11-01 15:47:52,886 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:52,995 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:52,996 - INFO - Fetching data for city: Houston
+2024-11-01 15:47:53,078 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:53,184 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:53,184 - INFO - Fetching data for city: Phoenix
+2024-11-01 15:47:53,257 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:53,385 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:53,385 - INFO - Fetching data for city: San Diego
+2024-11-01 15:47:53,456 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:53,580 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:53,605 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241101_154753.json
+2024-11-01 15:47:53,605 - INFO - Data transformation completed.
+2024-11-01 15:47:58,330 - INFO - Fetching data for city: New York
+2024-11-01 15:47:58,414 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:58,522 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:58,523 - INFO - Fetching data for city: Los Angeles
+2024-11-01 15:47:58,591 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:58,702 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:58,703 - INFO - Fetching data for city: Chicago
+2024-11-01 15:47:58,777 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:58,895 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:58,895 - INFO - Fetching data for city: Houston
+2024-11-01 15:47:58,969 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:59,110 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:59,110 - INFO - Fetching data for city: Phoenix
+2024-11-01 15:47:59,183 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:59,295 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:59,295 - INFO - Fetching data for city: San Diego
+2024-11-01 15:47:59,368 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 15:47:59,488 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 15:47:59,513 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241101_154759.json
+2024-11-01 15:47:59,513 - INFO - Data transformation completed.
+2024-11-01 15:47:59,552 - INFO - Tables created successfully (if they didn't exist).
+2024-11-01 15:47:59,602 - INFO - Data successfully loaded into the database.
+2024-11-01 16:04:35,166 - INFO - Fetching data for city: New York
+2024-11-01 16:04:35,261 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:04:35,372 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:04:35,373 - INFO - Fetching data for city: Los Angeles
+2024-11-01 16:04:35,449 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:04:35,556 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:04:35,556 - INFO - Fetching data for city: Chicago
+2024-11-01 16:04:35,627 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:04:35,746 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:04:35,746 - INFO - Fetching data for city: Houston
+2024-11-01 16:04:35,816 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:04:35,927 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:04:35,927 - INFO - Fetching data for city: Phoenix
+2024-11-01 16:04:36,002 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:04:36,110 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:04:36,111 - INFO - Fetching data for city: San Diego
+2024-11-01 16:04:36,183 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:04:36,321 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:04:36,347 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241101_160436.json
+2024-11-01 16:04:36,347 - INFO - Data transformation completed.
+2024-11-01 16:04:36,371 - INFO - Tables created successfully (if they didn't exist).
+2024-11-01 16:05:58,232 - INFO - Fetching data for city: New York
+2024-11-01 16:05:58,303 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:05:58,405 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:05:58,405 - INFO - Fetching data for city: Los Angeles
+2024-11-01 16:05:58,470 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:05:58,572 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:05:58,572 - INFO - Fetching data for city: Chicago
+2024-11-01 16:05:58,651 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:05:58,765 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:05:58,766 - INFO - Fetching data for city: Houston
+2024-11-01 16:05:58,837 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:05:58,944 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:05:58,944 - INFO - Fetching data for city: Phoenix
+2024-11-01 16:05:59,009 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:05:59,117 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:05:59,117 - INFO - Fetching data for city: San Diego
+2024-11-01 16:05:59,189 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:05:59,291 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:05:59,317 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241101_160559.json
+2024-11-01 16:05:59,317 - INFO - Data transformation completed.
+2024-11-01 16:05:59,341 - INFO - Tables created successfully (if they didn't exist).
+2024-11-01 16:05:59,342 - INFO - Inserted city: New York into the database.
+2024-11-01 16:05:59,342 - INFO - Inserted city: Los Angeles into the database.
+2024-11-01 16:05:59,342 - INFO - Inserted city: Chicago into the database.
+2024-11-01 16:05:59,342 - INFO - Inserted city: Houston into the database.
+2024-11-01 16:05:59,343 - INFO - Inserted city: Phoenix into the database.
+2024-11-01 16:05:59,343 - INFO - Inserted city: San Diego into the database.
+2024-11-01 16:05:59,392 - INFO - Data successfully loaded into the database.
+2024-11-01 16:06:28,344 - INFO - Fetching data for city: New York
+2024-11-01 16:06:28,428 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:06:28,539 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:06:28,539 - INFO - Fetching data for city: Los Angeles
+2024-11-01 16:06:28,610 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:06:28,718 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:06:28,718 - INFO - Fetching data for city: Chicago
+2024-11-01 16:06:28,791 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:06:28,898 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:06:28,898 - INFO - Fetching data for city: Houston
+2024-11-01 16:06:28,979 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:06:29,089 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:06:29,089 - INFO - Fetching data for city: Phoenix
+2024-11-01 16:06:29,162 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:06:29,270 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:06:29,271 - INFO - Fetching data for city: San Diego
+2024-11-01 16:06:29,343 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:06:29,461 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:06:29,486 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241101_160629.json
+2024-11-01 16:06:29,486 - INFO - Data transformation completed.
+2024-11-01 16:06:29,518 - INFO - Tables created successfully (if they didn't exist).
+2024-11-01 16:06:29,519 - INFO - Inserted city: New York into the database.
+2024-11-01 16:06:29,520 - INFO - Inserted city: Los Angeles into the database.
+2024-11-01 16:06:29,520 - INFO - Inserted city: Chicago into the database.
+2024-11-01 16:06:29,520 - INFO - Inserted city: Houston into the database.
+2024-11-01 16:06:29,520 - INFO - Inserted city: Phoenix into the database.
+2024-11-01 16:06:29,520 - INFO - Inserted city: San Diego into the database.
+2024-11-01 16:06:29,524 - ERROR - Error loading data to database: duplicate key value violates unique constraint "weather_data_city_timestamp_key"
+DETAIL:  Key (city, "timestamp")=(New York, 2024-11-01 16:04:16) already exists.
+
+2024-11-01 16:06:44,972 - INFO - Fetching data for city: New York
+2024-11-01 16:06:45,049 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:06:45,152 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:06:45,152 - INFO - Fetching data for city: Los Angeles
+2024-11-01 16:06:45,224 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:06:45,333 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:06:45,334 - INFO - Fetching data for city: Chicago
+2024-11-01 16:06:45,399 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:06:45,509 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:06:45,510 - INFO - Fetching data for city: Houston
+2024-11-01 16:06:45,582 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:06:45,695 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:06:45,696 - INFO - Fetching data for city: Phoenix
+2024-11-01 16:06:45,770 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:06:45,880 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:06:45,880 - INFO - Fetching data for city: San Diego
+2024-11-01 16:06:45,964 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:06:46,069 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:06:46,096 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241101_160646.json
+2024-11-01 16:06:46,096 - INFO - Data transformation completed.
+2024-11-01 16:06:46,133 - INFO - Tables created successfully (if they didn't exist).
+2024-11-01 16:06:46,134 - INFO - Inserted city: New York into the database.
+2024-11-01 16:06:46,135 - INFO - Inserted city: Los Angeles into the database.
+2024-11-01 16:06:46,135 - INFO - Inserted city: Chicago into the database.
+2024-11-01 16:06:46,135 - INFO - Inserted city: Houston into the database.
+2024-11-01 16:06:46,135 - INFO - Inserted city: Phoenix into the database.
+2024-11-01 16:06:46,135 - INFO - Inserted city: San Diego into the database.
+2024-11-01 16:06:46,185 - INFO - Data successfully loaded into the database.
+2024-11-01 16:07:22,037 - INFO - Fetching data for city: New York
+2024-11-01 16:07:22,112 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:07:22,220 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:07:22,220 - INFO - Fetching data for city: Los Angeles
+2024-11-01 16:07:22,303 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:07:22,411 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:07:22,412 - INFO - Fetching data for city: Chicago
+2024-11-01 16:07:22,482 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:07:22,592 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:07:22,592 - INFO - Fetching data for city: Houston
+2024-11-01 16:07:22,662 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:07:22,774 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:07:22,774 - INFO - Fetching data for city: Phoenix
+2024-11-01 16:07:22,862 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:07:22,967 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:07:22,967 - INFO - Fetching data for city: San Diego
+2024-11-01 16:07:23,038 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:07:23,148 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:07:23,173 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241101_160723.json
+2024-11-01 16:07:23,173 - INFO - Data transformation completed.
+2024-11-01 16:07:23,305 - INFO - Tables created successfully (if they didn't exist).
+2024-11-01 16:07:23,306 - INFO - Inserted city: New York into the database.
+2024-11-01 16:07:23,306 - INFO - Inserted city: Los Angeles into the database.
+2024-11-01 16:07:23,306 - INFO - Inserted city: Chicago into the database.
+2024-11-01 16:07:23,306 - INFO - Inserted city: Houston into the database.
+2024-11-01 16:07:23,306 - INFO - Inserted city: Phoenix into the database.
+2024-11-01 16:07:23,306 - INFO - Inserted city: San Diego into the database.
+2024-11-01 16:07:23,307 - ERROR - Error loading data to database: duplicate key value violates unique constraint "weather_data_city_timestamp_key"
+DETAIL:  Key (city, "timestamp")=(New York, 2024-11-01 16:04:16) already exists.
+
+2024-11-01 16:08:09,896 - INFO - Fetching data for city: New York
+2024-11-01 16:08:09,985 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:08:10,097 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:08:10,097 - INFO - Fetching data for city: Los Angeles
+2024-11-01 16:08:10,165 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:08:10,268 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:08:10,268 - INFO - Fetching data for city: Chicago
+2024-11-01 16:08:10,338 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:08:10,462 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:08:10,463 - INFO - Fetching data for city: Houston
+2024-11-01 16:08:10,534 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:08:10,663 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:08:10,663 - INFO - Fetching data for city: Phoenix
+2024-11-01 16:08:10,735 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:08:10,842 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:08:10,842 - INFO - Fetching data for city: San Diego
+2024-11-01 16:08:10,910 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/weather
+2024-11-01 16:08:11,031 - INFO - Successfully fetched data from http://api.openweathermap.org/data/2.5/forecast
+2024-11-01 16:08:11,057 - INFO - All cities' data saved to ./data/all_cities_weather_data_20241101_160811.json
+2024-11-01 16:08:11,057 - INFO - Data transformation completed.
+2024-11-01 16:08:11,189 - INFO - Tables created successfully (if they didn't exist).
+2024-11-01 16:08:11,190 - INFO - Inserted city: New York into the database.
+2024-11-01 16:08:11,190 - INFO - Inserted city: Los Angeles into the database.
+2024-11-01 16:08:11,190 - INFO - Inserted city: Chicago into the database.
+2024-11-01 16:08:11,190 - INFO - Inserted city: Houston into the database.
+2024-11-01 16:08:11,190 - INFO - Inserted city: Phoenix into the database.
+2024-11-01 16:08:11,191 - INFO - Inserted city: San Diego into the database.
+2024-11-01 16:08:11,241 - INFO - Data successfully loaded into the database.

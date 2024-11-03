@@ -29,7 +29,9 @@ default_args = {
     "owner": "airflow",
     "depends_on_past": False,
     "email_on_failure": False,
-    "email_on_retry": False
+    "email_on_retry": False,
+    "retries": 1,
+    "retry_delay": timedelta(minutes=5)
 }
 
 raw_weather_data = extract_weather_data(city_list)
@@ -37,12 +39,11 @@ transformed_data = transform_weather_data(raw_weather_data)
 load_data_to_db(transformed_data)
 
 with DAG(
-        "weather_etl_dag",
-        default_args=default_args,
-        description="A weather ETL DAG",
-        schedule=timedelta(hours=1),  # Set your desired schedule
-        start_date=datetime(2023, 10, 1),
-        catchup=False
+    "weather_etl_dag",
+    default_args=default_args,
+    description="A weather ETL DAG",
+    start_date=datetime(2023, 11, 1),
+    catchup=False
 ) as dag:
     # Step 1: Extract data
     def extract_task(**kwargs):
@@ -52,7 +53,7 @@ with DAG(
 
     extract_weather = PythonOperator(
         task_id="extract_weather",
-        python_callable=extract_task,
+        python_callable=extract_task
     )
 
 
@@ -65,7 +66,7 @@ with DAG(
 
     transform_weather = PythonOperator(
         task_id="transform_weather",
-        python_callable=transform_task,
+        python_callable=transform_task
     )
 
 
@@ -77,7 +78,7 @@ with DAG(
 
     load_weather = PythonOperator(
         task_id="load_weather",
-        python_callable=load_task,
+        python_callable=load_task
     )
 
     # Define task dependencies

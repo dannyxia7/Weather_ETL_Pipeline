@@ -33,10 +33,10 @@ default_args = {
     "retries": 1,
     "retry_delay": timedelta(minutes=5)
 }
-
-raw_weather_data = extract_weather_data(city_list)
-transformed_data = transform_weather_data(raw_weather_data)
-load_data_to_db(transformed_data)
+#
+# raw_weather_data = extract_weather_data(city_list)
+# transformed_data = transform_weather_data(raw_weather_data)
+# load_data_to_db(transformed_data)
 
 with DAG(
     "weather_etl_dag",

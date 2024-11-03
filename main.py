@@ -1,12 +1,28 @@
 from datetime import datetime, timedelta
 from airflow import DAG
-from airflow.operators.PythonOperator import PythonOperator
+from airflow.operators.python import PythonOperator
 from extract import extract_weather_data
 from transform import transform_weather_data
 from load import load_data_to_db
 
 # List of cities to fetch weather data for
-city_list = ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix", "San Diego"]
+city_list = [
+    "New York",
+    "Los Angeles",
+    "Chicago",
+    "Houston",
+    "Phoenix",
+    "Toronto",
+    "London",
+    "Paris",
+    "Berlin",
+    "Tokyo",
+    "Sydney",
+    "Cape Town",
+    "São Paulo",
+    "Mumbai",
+    "Dubai"
+]
 
 # Default arguments for the DAG
 default_args = {
@@ -16,9 +32,9 @@ default_args = {
     "email_on_retry": False
 }
 
-# raw_weather_data = extract_weather_data(city_list)
-# transformed_data = transform_weather_data(raw_weather_data)
-# load_data_to_db(transformed_data)
+raw_weather_data = extract_weather_data(city_list)
+transformed_data = transform_weather_data(raw_weather_data)
+load_data_to_db(transformed_data)
 
 with DAG(
         "weather_etl_dag",

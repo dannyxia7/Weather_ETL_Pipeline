@@ -98,12 +98,12 @@ def load_data_to_db(transformed_data):
                     """, (weather['city'], weather['country'], weather['latitude'], weather['longitude']))
                     logger.info(f"Inserted city: {weather['city']} into the database.")
 
-                # Insert weather conditions and retrieve their IDs
-                for weather in transformed_data["weather"]:
-                    # Convert Unix timestamp to datetime
-                    weather_timestamp = datetime.fromtimestamp(weather["timestamp"])  # Adjust this as necessary
 
-                    condition_description = weather["weather_condition"]
+                # Insert unique weather conditions from forecast data
+                unique_conditions = set(forecast["weather_condition"] for forecast in transformed_data["forecast"])
+                condition_ids = {}
+
+                for condition_description in unique_conditions:
                     cursor.execute("""
                         INSERT INTO weather_conditions (description) VALUES (%s)
                         ON CONFLICT (description) DO NOTHING
@@ -111,47 +111,100 @@ def load_data_to_db(transformed_data):
                     """, (condition_description,))
                     condition_id = cursor.fetchone()  # Fetch the condition ID if it was newly inserted
 
-                    # Insert weather data with no unique constraint on timestamp
-                    cursor.execute("""
-                        INSERT INTO weather_data (city, timestamp, temperature, humidity, weather_condition)
-                        VALUES (%s, %s, %s, %s, %s)
-                        ON CONFLICT (city, timestamp) DO NOTHING
-                    """, (
-                        weather["city"],
-                        weather_timestamp,  # Use the converted timestamp
-                        weather["temperature"],
-                        weather["humidity"],
-                        condition_id  # Use the fetched condition ID
-                    ))
+                    # If the weather condition already existed, retrieve the existing ID
+                    if condition_id is None:
+                        cursor.execute("SELECT id FROM weather_conditions WHERE description = %s", (condition_description,))
+                        condition_id = cursor.fetchone()
+
+                    # Store the condition ID if it was found
+                    condition_ids[condition_description] = condition_id[0]
+
+                # Insert weather data
+                for weather in transformed_data["weather"]:
+                    weather_condition_id = condition_ids.get(weather["weather_condition"])
+
+                    # If the condition ID does not exist, try to insert it
+                    if weather_condition_id is None:
+                        cursor.execute("""
+                            INSERT INTO weather_conditions (description) VALUES (%s)
+                            ON CONFLICT (description) DO NOTHING
+                            RETURNING id
+                        """, (weather["weather_condition"],))
+
+                        # Fetch the new condition ID
+                        weather_condition_id = cursor.fetchone()  # This returns (id,) or None
+
+                        # If a new ID was inserted, store it
+                        if weather_condition_id is not None:
+                            condition_ids[weather["weather_condition"]] = weather_condition_id[0]
+                            weather_condition_id = weather_condition_id[0]  # Use the actual ID directly
+
+                    # If we still do not have a weather_condition_id, try to retrieve it
+                    if weather_condition_id is None:  # This means the condition was not inserted
+                        cursor.execute("SELECT id FROM weather_conditions WHERE description = %s",
+                                       (weather["weather_condition"],))
+                        weather_condition_id = cursor.fetchone()  # This also returns (id,) or None
+
+                        # Check if we found an existing ID
+                        if weather_condition_id is not None:
+                            condition_ids[weather["weather_condition"]] = weather_condition_id[0]
+                            weather_condition_id = weather_condition_id[0]  # Use the actual ID directly
+
+                    # Insert into weather_data
+                    if weather_condition_id is not None:
+                        cursor.execute("""
+                            INSERT INTO weather_data (city, timestamp, temperature, humidity, weather_condition)
+                            VALUES (%s, %s, %s, %s, %s)
+                            ON CONFLICT (city, timestamp) DO NOTHING
+                        """, (
+                            weather["city"],
+                            weather["timestamp"],
+                            weather["temperature"],
+                            weather["humidity"],
+                            weather_condition_id  # This is now guaranteed to be an integer if not None
+                        ))
+                    else:
+                        # Handle case where weather_condition_id is still None
+                        cursor.execute("""
+                            INSERT INTO weather_data (city, timestamp, temperature, humidity)
+                            VALUES (%s, %s, %s, %s)
+                            ON CONFLICT (city, timestamp) DO NOTHING
+                        """, (
+                            weather["city"],
+                            weather["timestamp"],
+                            weather["temperature"],
+                            weather["humidity"]
+                        ))
+                        logger.warning(f"Weather condition '{weather['weather_condition']}' not found; row inserted without it.")
 
                 # Insert forecast data
                 for forecast in transformed_data["forecast"]:
-                    forecast_timestamp = datetime.fromtimestamp(forecast["timestamp"])  # Adjust this as necessary
-                    condition_description = forecast["weather_condition"]
-                    cursor.execute("""
-                        INSERT INTO weather_conditions (description) VALUES (%s)
-                        ON CONFLICT (description) DO NOTHING
-                        RETURNING id
-                    """, (condition_description,))
-                    condition_id = cursor.fetchone()  # Fetch the condition ID if it was newly inserted
-
-                    # Convert Unix timestamp to datetime
-                    timestamp = datetime.fromtimestamp(forecast["timestamp"])
-
-                    cursor.execute("""
-                        INSERT INTO forecast_data (city, timestamp, temperature, humidity, weather_condition)
-                        VALUES (%s, %s, %s, %s, %s)
-                        ON CONFLICT (city, timestamp) DO UPDATE SET
-                        temperature = EXCLUDED.temperature,
-                        humidity = EXCLUDED.humidity,
-                        weather_condition = EXCLUDED.weather_condition
-                    """, (
-                        forecast["city"],
-                        forecast_timestamp,  # Use the converted timestamp
-                        forecast["temperature"],
-                        forecast["humidity"],
-                        condition_id  # Use the fetched condition ID
-                    ))
+                    weather_condition_id = condition_ids.get(forecast["weather_condition"])
+                    if weather_condition_id is not None:
+                        cursor.execute("""
+                            INSERT INTO forecast_data (city, timestamp, temperature, humidity, weather_condition)
+                            VALUES (%s, %s, %s, %s, %s)
+                            ON CONFLICT (city, timestamp) DO NOTHING
+                        """, (
+                            forecast["city"],
+                            forecast["timestamp"],
+                            forecast["temperature"],
+                            forecast["humidity"],
+                            weather_condition_id
+                        ))
+                    else:
+                        # Insert without weather_condition
+                        cursor.execute("""
+                            INSERT INTO forecast_data (city, timestamp, temperature, humidity)
+                            VALUES (%s, %s, %s, %s)
+                            ON CONFLICT (city, timestamp) DO NOTHING
+                        """, (
+                            forecast["city"],
+                            forecast["timestamp"],
+                            forecast["temperature"],
+                            forecast["humidity"]
+                        ))
+                        logger.warning(f"Forecast condition '{forecast['weather_condition']}' not found; row inserted without it.")
 
                 # # Insert alerts data
                 # for alert in transformed_data["alerts"]:

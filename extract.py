@@ -4,17 +4,18 @@ import time
 import json
 import logging
 from datetime import datetime
-from requests.exceptions import RequestException
 
 # Define the API endpoint and parameters
 api_key = os.getenv('API_KEY')
 
 # Set up logging
-logging.basicConfig(filename='weather_etl_log', format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+logging.basicConfig(filename=f'weather_etl_log',
+                    format="%(asctime)s - %(levelname)s - %(message)s",
+                    level=logging.INFO)
 logger = logging.getLogger()
 
 base_url = "http://api.openweathermap.org/data/2.5/"
-CITY = "San Diego"
 os.makedirs("./data", exist_ok=True)
 
 # Max 60 requests per minute for the free tier
@@ -88,9 +89,9 @@ def extract_weather_data(cities, units='imperial'):
             cities_data["forecast"][city] = forecast_data
         else:
             logger.error(f"Data extraction failed for city: {city}")
+            raise ValueError(f"Failed to extract both weather and forecast data for city: {city}")
 
     # Save all cities' data to a single JSON file
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_file = f"./data/all_cities_weather_data_{timestamp}.json"
     with open(output_file, "w") as f:
         json.dump(cities_data, f, indent=4)

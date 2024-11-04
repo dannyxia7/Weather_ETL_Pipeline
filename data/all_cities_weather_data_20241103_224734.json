@@ -1,0 +1,29 @@
+{
+    "weather": {
+        "San Diego": {
+            "name": "San Diego",
+            "main": {
+                "temp": 285.32
+            },
+            "weather": [
+                {
+                    "description": "clear sky"
+                }
+            ]
+        }
+    },
+    "forecast": {
+        "San Diego": {
+            "city": "San Diego",
+            "list": [
+                {
+                    "weather": [
+                        {
+                            "description": "clear sky"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

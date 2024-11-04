@@ -1,0 +1,28 @@
+{
+    "weather": {
+        "New York": {
+            "name": "New York",
+            "main": {
+                "temp": 285.32
+            },
+            "weather": [
+                {
+                    "description": "clear sky"
+                }
+            ]
+        }
+    },
+    "forecast": {
+        "New York": {
+            "name": "New York",
+            "main": {
+                "temp": 285.32
+            },
+            "weather": [
+                {
+                    "description": "clear sky"
+                }
+            ]
+        }
+    }
+}

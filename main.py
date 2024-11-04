@@ -34,15 +34,16 @@ default_args = {
     "retry_delay": timedelta(minutes=5)
 }
 #
-# raw_weather_data = extract_weather_data(city_list)
-# transformed_data = transform_weather_data(raw_weather_data)
-# load_data_to_db(transformed_data)
+raw_weather_data = extract_weather_data(city_list)
+transformed_data = transform_weather_data(raw_weather_data)
+load_data_to_db(transformed_data)
 
 with DAG(
     "weather_etl_dag",
     default_args=default_args,
     description="A weather ETL DAG",
     start_date=datetime(2023, 11, 1),
+    schedule=timedelta(hours=4),
     catchup=False
 ) as dag:
     # Step 1: Extract data

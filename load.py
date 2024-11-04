@@ -81,7 +81,7 @@ def load_data_to_db(transformed_data):
             user="postgres",
             password="4976111",
             host="localhost",
-            port="5433"
+            port="5432"
         )
 
         with conn:
